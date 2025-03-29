@@ -13,5 +13,5 @@ export const STAATLICHES_FONT = Staatliches({
   display: "swap",
   weight: "400",
   style: "normal",
-  variable: "--font-alfa",
+  variable: "--font-staatliches",
 });
