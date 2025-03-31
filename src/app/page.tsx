@@ -1,7 +1,8 @@
 import FajansCard from "@/componets/FajansCard";
 import LeagueCard from "@/componets/LeagueCard";
-import About from "@/sections/About";
-import Management from "@/sections/Managment";
+import AboutSection from "@/sections/AboutSection";
+import BoardSection from "@/sections/BoardSection";
+import FAQSection from "@/sections/FAQSection";
 
 export default function Home() {
   return (
@@ -10,12 +11,13 @@ export default function Home() {
         <div className="col-span-full md:col-span-7 ">
           <LeagueCard />
         </div>
-        <div className="col-span-5">
+        <div className="col-span-full md:col-span-5">
           <FajansCard />
         </div>
       </div>
-      <About />
-      <Management />
+      <AboutSection />
+      <BoardSection />
+      <FAQSection />
     </div>
   );
 }

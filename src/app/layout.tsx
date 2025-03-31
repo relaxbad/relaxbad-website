@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { POPPINS_FONT, STAATLICHES_FONT } from "../constants/fonts";
+import { POPPINS_FONT, STAATLICHES_FONT } from "../globals/fonts";
 import Navbar from "@/componets/Navbar";
-import { Route } from "@/constants/routes";
+import { Url } from "@/globals/routes";
 import Footer from "@/componets/Footer";
 
 export const metadata: Metadata = {
@@ -20,7 +20,7 @@ export default function RootLayout({
       <body className={`${POPPINS_FONT.variable} ${STAATLICHES_FONT.variable}`}>
         <Navbar />
         <div>{children}</div>
-        <footer id={Route.CONTACT}>
+        <footer id={Url.CONTACT}>
           <Footer />
         </footer>
       </body>

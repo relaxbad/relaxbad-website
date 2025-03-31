@@ -5,6 +5,7 @@
   --foreground: #171717;
   --primary: #caf64b;
   --secondary: #2ebad5;
+  --light-grey: #f4f8f9;
 }
 
 @utility container {
@@ -17,9 +18,14 @@
   --color-foreground: var(--foreground);
   --color-primary: var(--primary);
   --color-secondary: var(--secondary);
+  --color-light-grey: var(--light-grey);
 
   --font-primary: var(--font-poppins);
   --font-secondary: var(--font-staatliches);
+}
+
+h1 {
+  @apply text-8xl font-secondary;
 }
 
 h2 {
@@ -27,11 +33,17 @@ h2 {
 }
 
 h3 {
-  @apply text-3xl font-secondary;
+  @apply text-4xl font-secondary;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   @apply font-primary;
+}
+
+@layer components {
+  .footer-text {
+    @apply text-sm text-gray-600;
+  }
 }

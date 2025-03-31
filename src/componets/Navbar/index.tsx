@@ -1,20 +1,21 @@
 import Image from "next/image";
 import LOGO from "@/assets/logo/logo-relaxbad.svg";
+import { ROUTES } from "@/globals/routes";
+import Link from "next/link";
 
 export const Navbar = () => {
   return (
-    <nav className="fixed w-full  flex flex-row">
+    <nav className="fixed w-full  md:flex flex-row hidden z-100">
       <div className="relative w-full container mt-3">
         <div className="absolute flex justify-self-start  bg-white rounded-full">
           <Image src={LOGO} alt="logo" className="h-6 w-30 my-2" />
         </div>
         <ul className="text-sm flex flex-row mx-auto justify-center items-center bg-primary w-fit px-6 py-2 rounded-full gap-5">
-          <li className="navbar__link">Strona Główna</li>
-          <li className="navbar__link">Fajansowa Lotka</li>
-          <li className="navbar__link">O klubie</li>
-          <li className="navbar__link">Zarząd</li>
-          <li className="navbar__link">Pytania</li>
-          <li className="navbar__link">Kontakt</li>
+          {ROUTES.map((route) => (
+            <Link key={route.url} href={route.url} className="text-green-950">
+              {route.label}
+            </Link>
+          ))}
         </ul>
       </div>
     </nav>
