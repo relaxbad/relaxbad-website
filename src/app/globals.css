@@ -4,6 +4,7 @@
   --background: #ffffff;
   --foreground: #171717;
   --primary: #caf64b;
+  --secondary: #2ebad5;
 }
 
 @utility container {
@@ -15,8 +16,18 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+
   --font-primary: var(--font-poppins);
   --font-secondary: var(--font-staatliches);
+}
+
+h2 {
+  @apply text-6xl font-secondary;
+}
+
+h3 {
+  @apply text-3xl font-secondary;
 }
 
 body {
