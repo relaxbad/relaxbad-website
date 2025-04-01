@@ -2,6 +2,7 @@ import PLAYERS_SMILE from "@/assets/images/about/players-smile.jpg";
 import PLAYERS_FRONT from "@/assets/images/about/players-front.jpg";
 import PLAYERS_BACK from "@/assets/images/about/players-back.jpg";
 import Image from "next/image";
+import FacebookButton from "@/componets/FacebookButton";
 
 const AboutSection = () => (
   <div className="mt-20 md:my-30">
@@ -20,12 +21,13 @@ const AboutSection = () => (
       </div>
       <div className="col-span-full md:col-span-4 mb-10 md:mb-0 md:pt-20 md:mx-10 ">
         <h3 className="">O klubie</h3>
-        <p className="mt-5">
+        <p className="mt-5 mb-10">
           Nasz klub prężnie rozwija się już od 2019 roku. Organizujemy regularne
           treningi, wyjazdy na turnieje oraz Włocławską Amatorską Ligę
           Badmintona. Wydarzenia oraz nasze aktualne osiągnięcia można śledzić
           na facebooku.
         </p>
+        <FacebookButton />
       </div>
       <div className="hidden col-span-3 md:flex items-end justify-end pl-10">
         <Image

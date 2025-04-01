@@ -19,7 +19,7 @@ const Footer = () => {
         <div>
           <h3>Do pobrania</h3>
           <div className="footer-text flex flex-col gap-2 mt-4">
-            <p>deklaracja członkowska</p>
+            <p>Deklaracja członkowska</p>
             <p>Statut stowarzyszenia</p>
           </div>
         </div>
