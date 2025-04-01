@@ -1,5 +1,6 @@
 import FajansCard from "@/componets/FajansCard";
 import LeagueCard from "@/componets/LeagueCard";
+import { Url } from "@/globals/routes";
 import AboutSection from "@/sections/AboutSection";
 import BoardSection from "@/sections/BoardSection";
 import FAQSection from "@/sections/FAQSection";
@@ -15,9 +16,15 @@ export default function Home() {
           <FajansCard />
         </div>
       </div>
-      <AboutSection />
-      <BoardSection />
-      <FAQSection />
+      <section id={Url.ABOUT_US.replace("#", "")}>
+        <AboutSection />
+      </section>
+      <section id={Url.BOARD.replace("#", "")}>
+        <BoardSection />
+      </section>
+      <section id={Url.QUESTIONS.replace("#", "")}>
+        <FAQSection />
+      </section>
     </div>
   );
 }

@@ -20,7 +20,7 @@ export default function RootLayout({
       <body className={`${POPPINS_FONT.variable} ${STAATLICHES_FONT.variable}`}>
         <Navbar />
         <div>{children}</div>
-        <footer id={Url.CONTACT}>
+        <footer id={Url.CONTACT.replace("#", "")}>
           <Footer />
         </footer>
       </body>

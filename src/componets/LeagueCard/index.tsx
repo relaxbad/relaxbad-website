@@ -1,26 +1,27 @@
-"use client";
-
-import Button from "../Button";
+import { LEAGUE_LINK } from "@/globals/links";
+import LinkButton from "../LinkButton";
+import LEAGUE_BG from "@/assets/images/league-bg-el.png";
 
 const LeagueCard = () => {
   return (
-    <div className="bg-secondary rounded-3xl w-full py-7 px-10 ">
-      <div className="text-white mt-20 mb-20 w-[70%]">
-        <p className="font-semibold ">SEZON 2024/2024</p>
+    <div
+      className="bg-secondary rounded-3xl w-full py-7 px-7 md:px-10 bg-contain bg-no-repeat bg-right-bottom "
+      style={{ backgroundImage: `url(${LEAGUE_BG.src})` }}
+    >
+      <div className="text-white my-10 md:my-20  md:w-[70%]">
+        <p className="font-semibold text-sm md:text-base opacity-80 ">
+          SEZON 2024/2024
+        </p>
         <h2>Włocławska Liga Badmintona</h2>
-        <p className="mt-5">
+        <p className="mt-5 text-sm md:text-base">
           Organizujemy jedną z największych amatorskich lig badmintona w
           regionie
         </p>
       </div>
 
-      <Button
-        onClick={() => {
-          console.log("Zobacz więcej");
-        }}
-      >
+      <LinkButton href={LEAGUE_LINK} target="_blank">
         Zobacz wyniki
-      </Button>
+      </LinkButton>
     </div>
   );
 };
