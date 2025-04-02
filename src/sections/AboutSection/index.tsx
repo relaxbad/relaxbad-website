@@ -3,9 +3,10 @@ import PLAYERS_FRONT from "@/assets/images/about/players-front.jpg";
 import PLAYERS_BACK from "@/assets/images/about/players-back.jpg";
 import Image from "next/image";
 import FacebookButton from "@/componets/FacebookButton";
+import Stripes from "./Stripes";
 
 const AboutSection = () => (
-  <div className="mt-20 lg:my-30">
+  <div className="mt-20 lg:my-30 relative">
     <div className="container grid grid-cols-12 gap-4">
       <div className="hidden col-span-4 lg:flex flex-col pr-10">
         <Image
@@ -54,6 +55,7 @@ const AboutSection = () => (
         />
       </div>
     </div>
+    <Stripes />
   </div>
 );
 

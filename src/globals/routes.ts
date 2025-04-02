@@ -1,5 +1,7 @@
+import { LEAGUE_LINK } from "./links";
+
 interface Route {
-  url: Url;
+  url: Url | string;
   label: string;
 }
 
@@ -18,8 +20,12 @@ export const ROUTES: Route[] = [
     label: "Strona Główna",
   },
   {
+    url: LEAGUE_LINK,
+    label: "WALB",
+  },
+  {
     url: Url.ABOUT_US,
-    label: "O Nas",
+    label: "O Klubie",
   },
   {
     url: Url.FAJANSOWA_LOTKA,

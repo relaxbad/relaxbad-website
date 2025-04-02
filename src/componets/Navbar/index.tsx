@@ -3,6 +3,7 @@ import LOGO from "@/assets/logo/logo-relaxbad.svg";
 import { ROUTES, Url } from "@/globals/routes";
 import Link from "next/link";
 import HamburgerNav from "./HamburgerNav";
+import { LEAGUE_LINK } from "@/globals/links";
 
 export const Navbar = () => {
   return (
@@ -14,9 +15,14 @@ export const Navbar = () => {
           </Link>
         </div>
         <ul className="text-sm flex flex-row mx-auto justify-center items-center bg-primary w-fit px-8 py-4 rounded-full gap-5">
-          {ROUTES.map((route) => (
-            <Link key={route.url} href={route.url} className="text-green-950 ">
-              {route.label}
+          {ROUTES.map(({ url, label }) => (
+            <Link
+              key={url}
+              href={url}
+              className="text-green-950 "
+              target={url === LEAGUE_LINK ? "_blank" : "_self"}
+            >
+              {label}
             </Link>
           ))}
         </ul>
