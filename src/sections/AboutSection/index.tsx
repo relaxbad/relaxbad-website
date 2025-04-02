@@ -4,9 +4,12 @@ import PLAYERS_BACK from "@/assets/images/about/players-back.jpg";
 import Image from "next/image";
 import FacebookButton from "@/componets/FacebookButton";
 import Stripes from "./Stripes";
+import Blob from "@/componets/Blob";
 
 const AboutSection = () => (
   <div className="mt-20 lg:my-30 relative">
+    <Blob className="-top-80 -left-20" color="green" />
+    <Blob className="-bottom-40 -right-20" color="green" />
     <div className="container grid grid-cols-12 gap-4">
       <div className="hidden col-span-4 lg:flex flex-col pr-10">
         <Image

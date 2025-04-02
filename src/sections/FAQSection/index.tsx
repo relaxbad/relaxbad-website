@@ -1,9 +1,11 @@
 import Accordion from "@/componets/Accordion";
 import { FAQ } from "@/globals/FAQ";
 import Stripes from "./Stripes";
+import Blob from "@/componets/Blob";
 
 const FAQSection = () => (
   <div className="relative">
+    <Blob className="-bottom-30 -right-30  rotate-45" color="green" />
     <div className="container grid grid-cols-12 gap-4 mt-40">
       <div className="col-span-full md:col-span-7 mb-10 md:mb-30">
         <h1>

@@ -11,7 +11,7 @@ const HamburgerNav = () => {
 
   return (
     <>
-      <div className="bg-white py-2 px-1 lg:hidden">
+      <div className="bg-white py-2 px-1 lg:hidden shadow-xs">
         <div className="container flex justify-between items-center ">
           <Image src={LOGO} alt="logo" className="h-6 w-fit" />
           <Hamburger
@@ -20,7 +20,7 @@ const HamburgerNav = () => {
           />
         </div>
       </div>
-      {isOpen && <HamburgerNavItems />}
+      {isOpen && <HamburgerNavItems closeNav={() => setIsOpen(false)} />}
     </>
   );
 };

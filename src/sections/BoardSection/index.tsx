@@ -3,9 +3,13 @@ import GRZEGORZ from "@/assets/managment/grzes.jpg";
 import MARIUSZ from "@/assets/managment/mariusz.jpg";
 import RAFAŁ from "@/assets/managment/rafal.jpg";
 import MACIEJ from "@/assets/managment/maciek.jpg";
+import Blob from "@/componets/Blob";
 
 const BoardSection = () => (
-  <div className="">
+  <div className="relative">
+    <Blob className="-top-20 -right-40 opacity-65 rotate-45" color="blue" />
+    <Blob className="-top-20 -left-30  rotate-45" />
+
     <div className="container grid grid-cols-12 gap-4">
       <div className="col-span-full lg:col-span-8 lg:col-start-3">
         <div className="mb-10 flex flex-col items-center lg:items-start">
