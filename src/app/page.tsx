@@ -18,13 +18,13 @@ export default function Home() {
           <FajansCard />
         </div>
       </div>
-      <section id={Url.ABOUT_US.replace("#", "")}>
+      <section id={Url.ABOUT_US.replace("/#", "")}>
         <AboutSection />
       </section>
-      <section id={Url.BOARD.replace("#", "")}>
+      <section id={Url.BOARD.replace("/#", "")}>
         <BoardSection />
       </section>
-      <section id={Url.QUESTIONS.replace("#", "")}>
+      <section id={Url.QUESTIONS.replace("/#", "")}>
         <FAQSection />
       </section>
     </div>
