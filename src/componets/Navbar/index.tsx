@@ -7,7 +7,7 @@ import Hamburger from "../Hamburger";
 export const Navbar = () => {
   return (
     <nav className="w-full fixed z-100">
-      <div className="hidden relative mt-3 md:flex flex-row w-full z-100">
+      <div className="hidden relative mt-3 lg:flex flex-row w-full z-100">
         <div className="absolute flex justify-self-start  bg-white rounded-full">
           <Link href={Url.HOME}>
             <Image src={LOGO} alt="logo" className="h-7 w-40 my-3 mr-2" />
@@ -21,7 +21,7 @@ export const Navbar = () => {
           ))}
         </ul>
       </div>
-      <div className="bg-white py-2 px-1 md:hidden">
+      <div className="bg-white py-2 px-1 lg:hidden">
         <div className="container flex justify-between items-center ">
           <Image src={LOGO} alt="logo" className="h-6 w-fit" />
           <Hamburger />

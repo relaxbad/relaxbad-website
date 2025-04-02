@@ -7,15 +7,15 @@ import MACIEJ from "@/assets/managment/maciek.jpg";
 const BoardSection = () => (
   <div className="">
     <div className="container grid grid-cols-12 gap-4">
-      <div className="col-span-full md:col-span-8 md:col-start-3">
-        <div className="mb-10">
+      <div className="col-span-full lg:col-span-8 lg:col-start-3">
+        <div className="mb-10 flex flex-col items-center lg:items-start">
           <h3>Zarząd</h3>
-          <p className="mt-5 w-1/2">
+          <p className="mt-5 w-1/2 text-center lg:text-left">
             To dzięki nim klub rozwija się i odnosi sukcesy, zapewniając
             zawodnikom najlepsze warunki do gry!
           </p>
         </div>
-        <div className="mt-24 flex gap-4 gap-y-10 flex-wrap justify-around md:justify-between w-full">
+        <div className="mt-24 flex gap-4 gap-y-10 flex-wrap justify-around lg:justify-between w-full">
           <Person
             name="Grzegorz Jankowski"
             description="Prezes Klubu"

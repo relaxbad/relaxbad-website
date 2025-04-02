@@ -33,7 +33,7 @@ h2 {
 }
 
 h3 {
-  @apply text-4xl font-secondary;
+  @apply text-4xl md:text-3xl font-secondary;
 }
 
 html,

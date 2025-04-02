@@ -5,9 +5,9 @@ import Image from "next/image";
 import FacebookButton from "@/componets/FacebookButton";
 
 const AboutSection = () => (
-  <div className="mt-20 md:my-30">
+  <div className="mt-20 lg:my-30">
     <div className="container grid grid-cols-12 gap-4">
-      <div className="hidden col-span-4 md:flex flex-col pr-10">
+      <div className="hidden col-span-4 lg:flex flex-col pr-10">
         <Image
           src={PLAYERS_FRONT}
           alt="players"
@@ -19,9 +19,9 @@ const AboutSection = () => (
           className="rounded-2xl w-3/5 "
         />
       </div>
-      <div className="col-span-full md:col-span-4 mb-10 md:mb-0 md:pt-20 md:mx-10 ">
+      <div className="col-span-full lg:col-span-4 mb-10 lg:mb-0 lg:pt-20 lg:mx-10 flex flex-col items-center lg:items-start">
         <h3 className="">O klubie</h3>
-        <p className="mt-5 mb-10">
+        <p className="mt-5 mb-10 text-center lg:text-left">
           Nasz klub prężnie rozwija się już od 2019 roku. Organizujemy regularne
           treningi, wyjazdy na turnieje oraz Włocławską Amatorską Ligę
           Badmintona. Wydarzenia oraz nasze aktualne osiągnięcia można śledzić
@@ -29,7 +29,7 @@ const AboutSection = () => (
         </p>
         <FacebookButton />
       </div>
-      <div className="hidden col-span-3 md:flex items-end justify-end pl-10">
+      <div className="hidden col-span-3 lg:flex items-end justify-end pl-10">
         <Image
           src={PLAYERS_BACK}
           alt="players"
@@ -39,14 +39,14 @@ const AboutSection = () => (
       <Image
         src={PLAYERS_FRONT}
         alt="players"
-        className=" md:hidden col-span-6  rounded-2xl flex-wrap"
+        className=" lg:hidden col-span-6  rounded-2xl flex-wrap"
       />
       <Image
         src={PLAYERS_SMILE}
         alt="players"
-        className="md:hidden col-span-6 rounded-2xl flex-wrap"
+        className="lg:hidden col-span-6 rounded-2xl flex-wrap"
       />
-      <div className="md:hidden overflow-hidden col-span-full rounded-2xl h-3/5">
+      <div className="lg:hidden overflow-hidden col-span-full rounded-2xl h-3/5">
         <Image
           src={PLAYERS_BACK}
           alt="players"
