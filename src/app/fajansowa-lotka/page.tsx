@@ -2,6 +2,8 @@ import Image from "next/image";
 import FAJANS from "@/assets/images/fajans-lotka.png";
 import ARROW from "@/assets/icons/arrow-right.svg";
 import Section from "@/componets/Section";
+import Link from "next/link";
+import { Url } from "@/globals/routes";
 
 const FajansowaLotka = () => (
   <div className="relative py-30">
@@ -11,10 +13,10 @@ const FajansowaLotka = () => (
       className="absolute top-0 right-0 w-150"
     />
     <div className="container">
-      <div className="flex items-center text-sm gap-2 mb-10">
+      <Link href={Url.HOME} className="flex items-center text-sm gap-2 mb-10">
         <Image src={ARROW} alt="arrow" className="rotate-180 size-3" />
         <p>Powrót do strony głównej</p>
-      </div>
+      </Link>
       <p>EDYCJA II - 2025</p>
       <h2 className="mb-5 mt-2">
         Turniej o <span className="text-fajans">FAJANSOWĄ</span> lotkę
