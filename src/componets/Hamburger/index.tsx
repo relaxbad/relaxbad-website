@@ -1,17 +1,19 @@
 "use client";
 
-import { useState } from "react";
 import "./style.css";
 
-const Hamburger = () => {
-  const [isActive, setIsActive] = useState(false);
+interface HamburgerProps {
+  toggleMenu: () => void;
+  isOpen: boolean;
+}
 
+const Hamburger = ({ toggleMenu, isOpen }: HamburgerProps) => {
   return (
     <svg
-      className={` ham hamRotate ham8 ${isActive ? "active" : ""}`}
+      className={` ham hamRotate ham8 ${isOpen ? "active" : ""}`}
       viewBox="0 0 100 100"
       width="35"
-      onClick={() => setIsActive((prev) => !prev)}
+      onClick={toggleMenu}
     >
       <path
         className="line top"

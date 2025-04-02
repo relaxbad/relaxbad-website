@@ -2,7 +2,7 @@ import Image from "next/image";
 import LOGO from "@/assets/logo/logo-relaxbad.svg";
 import { ROUTES, Url } from "@/globals/routes";
 import Link from "next/link";
-import Hamburger from "../Hamburger";
+import HamburgerNav from "./HamburgerNav";
 
 export const Navbar = () => {
   return (
@@ -21,12 +21,7 @@ export const Navbar = () => {
           ))}
         </ul>
       </div>
-      <div className="bg-white py-2 px-1 lg:hidden">
-        <div className="container flex justify-between items-center ">
-          <Image src={LOGO} alt="logo" className="h-6 w-fit" />
-          <Hamburger />
-        </div>
-      </div>
+      <HamburgerNav />
     </nav>
   );
 };
