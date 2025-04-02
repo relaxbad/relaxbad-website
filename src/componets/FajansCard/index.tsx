@@ -1,3 +1,4 @@
+import { Url } from "@/globals/routes";
 import LinkButton from "../LinkButton";
 import FAJANS_BG from "@/assets/images/fajans-lotka.png";
 
@@ -19,10 +20,12 @@ const FajansCard = () => {
           EDYCJA II - 2025
         </p>
         <h2>
-          Turniej o <span className="text-blue-900">fajansową</span> lotkę
+          Turniej o <span className="text-fajans">fajansową</span> lotkę
         </h2>
       </div>
-      <LinkButton variant="secondary">Dowiedz się więcej</LinkButton>
+      <LinkButton variant="secondary" href={Url.FAJANSOWA_LOTKA}>
+        Dowiedz się więcej
+      </LinkButton>
     </div>
   );
 };

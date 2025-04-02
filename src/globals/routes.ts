@@ -8,7 +8,7 @@ interface Route {
 export enum Url {
   HOME = "/#!",
   ABOUT_US = "#o-nas",
-  FAJANSOWA_LOTKA = "#fajansowa-lotka",
+  FAJANSOWA_LOTKA = "/fajansowa-lotka",
   BOARD = "#zarzad",
   QUESTIONS = "#pytania",
   CONTACT = "#kontakt",

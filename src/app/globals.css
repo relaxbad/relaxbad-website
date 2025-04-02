@@ -6,6 +6,7 @@
   --primary: #caf64b;
   --secondary: #2ebad5;
   --light-grey: #f4f8f9;
+  --fajans: #2957a6;
 }
 
 @utility container {
@@ -19,6 +20,7 @@
   --color-primary: var(--primary);
   --color-secondary: var(--secondary);
   --color-light-grey: var(--light-grey);
+  --color-fajans: var(--fajans);
 
   --font-primary: var(--font-poppins);
   --font-secondary: var(--font-staatliches);
