@@ -1,7 +1,7 @@
 import Image from "next/image";
 import FAJANS from "@/assets/images/fajans-lotka.png";
 import ARROW from "@/assets/icons/arrow-right.svg";
-import Section from "@/componets/Section";
+import Section from "@/components/Section";
 import Link from "next/link";
 import { Url } from "@/globals/routes";
 
@@ -32,10 +32,7 @@ const FajansowaLotka = () => (
         </Section>
 
         <Section title="Kategorie gier">
-          <ul
-            className="list-disc list-inside
-          "
-          >
+          <ul className="list-disc list-inside">
             <li>Gry pojedyncze</li>
             <li>Gry podwójne</li>
             <li>Mixty</li>

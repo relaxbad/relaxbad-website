@@ -1,6 +1,6 @@
-import Blob from "@/componets/Blob";
-import FajansCard from "@/componets/FajansCard";
-import LeagueCard from "@/componets/LeagueCard";
+import Blob from "@/components/Blob";
+import FajansCard from "@/components/FajansCard";
+import LeagueCard from "@/components/LeagueCard";
 import { Url } from "@/globals/routes";
 import AboutSection from "@/sections/AboutSection";
 import BoardSection from "@/sections/BoardSection";

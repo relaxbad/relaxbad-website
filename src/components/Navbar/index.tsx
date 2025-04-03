@@ -14,7 +14,7 @@ export const Navbar = () => {
             <Image src={LOGO} alt="logo" className="h-7 w-40 my-3 mr-2" />
           </Link>
         </div>
-        <ul className="text-sm flex flex-row mx-auto justify-center items-center bg-primary w-fit px-8 py-4 rounded-full gap-5">
+        <ul className="text-sm flex flex-row mx-auto justify-center items-center bg-primary w-fit px-8 py-4 rounded-full gap-6">
           {ROUTES.map(({ url, label }) => (
             <Link
               key={url}

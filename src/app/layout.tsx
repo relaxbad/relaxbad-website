@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { POPPINS_FONT, STAATLICHES_FONT } from "../globals/fonts";
-import Navbar from "@/componets/Navbar";
+import Navbar from "@/components/Navbar";
 import { Url } from "@/globals/routes";
-import Footer from "@/componets/Footer";
+import Footer from "@/sections/Footer";
 
 export const metadata: Metadata = {
   title: "Create Next App",

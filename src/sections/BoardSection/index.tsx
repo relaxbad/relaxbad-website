@@ -3,7 +3,7 @@ import GRZEGORZ from "@/assets/managment/grzes.jpg";
 import MARIUSZ from "@/assets/managment/mariusz.jpg";
 import RAFAŁ from "@/assets/managment/rafal.jpg";
 import MACIEJ from "@/assets/managment/maciek.jpg";
-import Blob from "@/componets/Blob";
+import Blob from "@/components/Blob";
 
 const BoardSection = () => (
   <div className="relative">

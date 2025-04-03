@@ -1,7 +1,7 @@
-import Accordion from "@/componets/Accordion";
+import Accordion from "@/components/Accordion";
 import { FAQ } from "@/globals/FAQ";
 import Stripes from "./Stripes";
-import Blob from "@/componets/Blob";
+import Blob from "@/components/Blob";
 
 const FAQSection = () => (
   <div className="relative">

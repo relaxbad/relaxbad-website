@@ -1,26 +1,44 @@
 import LOGO from "@/assets/logo/logo-relaxbad.svg";
 import LOGO_LARGE from "@/assets/logo/logo-large.svg";
 import Image from "next/image";
+import { DOWNLOAD_FILES } from "@/globals/downloadFiles";
+import Link from "next/link";
+import { CONTACTS } from "@/globals/contacts";
 
 const Footer = () => {
   return (
     <div className="bg-light-grey mt-10">
-      <div className="container grid md:grid-cols-4  gap-12 md:gap-4 pt-15 text-center md:text-left">
+      <div className="container grid md:grid-cols-4  gap-12 md:gap-4 py-15 text-center md:text-left ">
         <div className="flex justify-center md:justify-start">
           <Image src={LOGO} alt="logo" className="h-6 w-30 my-2" />
         </div>
         <div>
           <h3>Kontakt</h3>
-          <div className="footer-text flex flex-col gap-2 mt-4">
-            <p>relaxbad@gmail.com</p>
-            <p>661 191 848</p>
+          <div className="flex flex-col gap-5 mt-4">
+            {CONTACTS.map(({ label, name, email, phone }) => (
+              <div key={label} className="footer-text flex flex-col gap-2">
+                <p className="font-semibold">{label}</p>
+                <p>{name}</p>
+                {email && <p>{email}</p>}
+                <p>{phone}</p>
+              </div>
+            ))}
           </div>
         </div>
         <div>
           <h3>Do pobrania</h3>
           <div className="footer-text flex flex-col gap-2 mt-4">
-            <p>Deklaracja członkowska</p>
-            <p>Statut stowarzyszenia</p>
+            {DOWNLOAD_FILES.map(({ name, url }) => (
+              <Link
+                href={url}
+                target="_blank"
+                download={true}
+                key={url}
+                className="hover:underline"
+              >
+                {name}
+              </Link>
+            ))}
           </div>
         </div>
         <div className="flex justify-center md:justify-end">

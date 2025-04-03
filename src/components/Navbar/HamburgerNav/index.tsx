@@ -1,7 +1,7 @@
 "use client";
 
 import HamburgerNavItems from "../HamburgerNavItems";
-import Hamburger from "@/componets/Hamburger";
+import Hamburger from "@/components/Hamburger";
 import Image from "next/image";
 import { useState } from "react";
 import LOGO from "@/assets/logo/logo-relaxbad.svg";

@@ -2,9 +2,9 @@ import PLAYERS_SMILE from "@/assets/images/about/players-smile.jpg";
 import PLAYERS_FRONT from "@/assets/images/about/players-front.jpg";
 import PLAYERS_BACK from "@/assets/images/about/players-back.jpg";
 import Image from "next/image";
-import FacebookButton from "@/componets/FacebookButton";
+import FacebookButton from "@/components/FacebookButton";
 import Stripes from "./Stripes";
-import Blob from "@/componets/Blob";
+import Blob from "@/components/Blob";
 
 const AboutSection = () => (
   <div className="mt-20 lg:my-30 relative">
