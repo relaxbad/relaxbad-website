@@ -5,6 +5,8 @@ import { Url } from "@/globals/routes";
 import AboutSection from "@/sections/AboutSection";
 import BoardSection from "@/sections/BoardSection";
 import FAQSection from "@/sections/FAQSection";
+import SponsorCard from "@/components/SponsorCard";
+import { SPONSORS } from "@/globals/sponsors";
 
 export default function Home() {
   return (
@@ -27,6 +29,15 @@ export default function Home() {
       <section id={Url.QUESTIONS.replace("/#", "")}>
         <FAQSection />
       </section>
+
+      <div className="container">
+        <p className="mb-10 text-sm font-bold">Wspierają nas: </p>
+        <div className=" flex gap-4 justify-around">
+          {SPONSORS.map((sponsor) => (
+            <SponsorCard key={sponsor.name} {...sponsor} />
+          ))}
+        </div>
+      </div>
     </div>
   );
 }
