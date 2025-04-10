@@ -1,11 +1,17 @@
 import { LEAGUE_LINK } from "@/globals/links";
 import LinkButton from "../LinkButton";
-import LEAGUE_BG from "@/assets/images/league-bg-el.png";
+import LEAGUE_BG from "@/assets/images/league-bg-el.webp";
+
+const xsClassName = "bg-[right_bottom] bg-[length:150px]";
+const mdClassName = "md:bg-[length:250px]";
+const lgClassName = "lg:bg-[length:270px]";
+
+const imageClassName = `bg-no-repeat ${xsClassName}  ${mdClassName} ${lgClassName}`;
 
 const LeagueCard = () => {
   return (
     <div
-      className="bg-secondary rounded-3xl w-full py-7 px-7 md:px-10 bg-contain bg-no-repeat bg-right-bottom "
+      className={`bg-secondary rounded-3xl w-full py-7 px-7 md:px-10 ${imageClassName} `}
       style={{ backgroundImage: `url(${LEAGUE_BG.src})` }}
     >
       <div className="text-white my-10 md:my-20  md:w-[70%]">

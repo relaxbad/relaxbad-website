@@ -5,7 +5,7 @@ interface SectionProps extends PropsWithChildren {
 }
 
 const Section = ({ title, children }: SectionProps) => (
-  <div className="mb-10 flex flex-col items-center lg:items-start">
+  <div className="mb-10 flex flex-col items-center lg:items-start w-1/3">
     <h3 className="mb-2">{title}</h3>
     {children}
   </div>

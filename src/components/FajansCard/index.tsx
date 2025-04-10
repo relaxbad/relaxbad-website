@@ -1,6 +1,6 @@
 import { Url } from "@/globals/routes";
 import LinkButton from "../LinkButton";
-import FAJANS_BG from "@/assets/images/fajans-lotka.png";
+import FAJANS_BG from "@/assets/images/fajans-lotka.webp";
 
 const xsClassName = "bg-[right_-20px_top_-100px] bg-[length:200px]";
 const smClassName = "sm:bg-[length:250px]";
