@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const SponsorCard = ({ link, logo, name }: Sponsor) => (
   <Link href={link} target="_blank">
-    <Image src={logo} alt={name} className="w-20" />
+    <Image src={logo} alt={name} className="w-20 " />
   </Link>
 );
 

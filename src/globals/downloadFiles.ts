@@ -6,10 +6,10 @@ interface DownloadFiles {
 export const DOWNLOAD_FILES: DownloadFiles[] = [
   {
     name: "Deklaracja człokowska",
-    url: "/docs/Deklaracja Członkowska Relaxbad.pdf",
+    url: "/downloads/Deklaracja_Czlonkowska_Relaxbad.pdf",
   },
   {
     name: "Statut Klubu",
-    url: "/docs/Statut Relaxbad.pdf",
+    url: "/downloads/Statut_Relaxbad.pdf",
   },
 ];

@@ -2,7 +2,6 @@ import LOGO from "@/assets/logo/logo-relaxbad.svg";
 import LOGO_LARGE from "@/assets/logo/logo-large.svg";
 import Image from "next/image";
 import { DOWNLOAD_FILES } from "@/globals/downloadFiles";
-import Link from "next/link";
 import { CONTACTS } from "@/globals/contacts";
 
 const Footer = () => {
@@ -29,15 +28,15 @@ const Footer = () => {
           <h3>Do pobrania</h3>
           <div className="footer-text flex flex-col gap-2 mt-4">
             {DOWNLOAD_FILES.map(({ name, url }) => (
-              <Link
+              <a
                 href={url}
                 target="_blank"
-                download={true}
+                download={name}
                 key={url}
                 className="hover:underline"
               >
                 {name}
-              </Link>
+              </a>
             ))}
           </div>
         </div>

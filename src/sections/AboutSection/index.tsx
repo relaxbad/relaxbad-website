@@ -7,7 +7,7 @@ import Stripes from "./Stripes";
 import Blob from "@/components/Blob";
 
 const AboutSection = () => (
-  <div className="mt-20 lg:my-30 relative">
+  <div className="mt-20 sm:-mb-10 md:-mb-24 lg:my-30 relative  ">
     <Blob className="-top-80 -left-20" color="green" />
     <Blob className="-bottom-40 -right-20" color="green" />
     <div className="container grid grid-cols-12 gap-4">

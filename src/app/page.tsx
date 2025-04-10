@@ -32,7 +32,7 @@ export default function Home() {
 
       <div className="container">
         <p className="mb-10 text-sm font-bold">Wspierają nas: </p>
-        <div className=" flex gap-4 justify-around">
+        <div className=" flex gap-4 justify-around flex-wrap">
           {SPONSORS.map((sponsor) => (
             <SponsorCard key={sponsor.name} {...sponsor} />
           ))}

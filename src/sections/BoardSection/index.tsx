@@ -19,7 +19,7 @@ const BoardSection = () => (
             zawodnikom najlepsze warunki do gry!
           </p>
         </div>
-        <div className="mt-24 flex gap-4 gap-y-10 flex-wrap justify-around lg:justify-between w-full">
+        <div className="mt-24 md:mb-24 lg:mb-0 flex gap-4 gap-y-10 flex-wrap justify-around lg:justify-between w-full">
           <Person
             name="Grzegorz Jankowski"
             description="Prezes Klubu"
