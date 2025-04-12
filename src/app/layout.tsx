@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     images: [
       {
-        url: "https://kseuforia.pl/img/og-img.png",
+        url: "https://relaxbad.pl/img/og-img.png",
         width: 400,
         height: 225,
         alt: "Large image for Relaxbad",
