@@ -14,7 +14,7 @@ const BoardSection = () => (
       <div className="col-span-full lg:col-span-8 lg:col-start-3">
         <div className="mb-10 flex flex-col items-center lg:items-start">
           <h3>Zarząd</h3>
-          <p className="mt-5 w-1/2 text-center lg:text-left">
+          <p className="mt-5 md:w-1/2 text-center lg:text-left">
             To dzięki nim klub rozwija się i odnosi sukcesy, zapewniając
             zawodnikom najlepsze warunki do gry!
           </p>
