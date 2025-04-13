@@ -6,8 +6,9 @@ import { Url } from "@/globals/routes";
 import Footer from "@/sections/Footer";
 
 export const metadata: Metadata = {
-  title: "Relaxbad - Badminton Włocławek",
-  description: "Klub badmintona Relaxbad Włocławek - oficjalna strona klubu",
+  title: "Klub Sportowy Relaxbad - Nowa Wieś",
+  description:
+    "Oficjalna strona klubu sportowego Relaxbad Nowa Wieś, Włocławek",
   robots: "index",
   icons: {
     icon: [
@@ -28,8 +29,8 @@ export const metadata: Metadata = {
     ],
     type: "website",
     locale: "pl_PL",
-    title: "Relaxbad - Badminton Włocławek",
-    description: "Klub badmintona Relaxbad Włocławek",
+    title: "Klub Sportowy Relaxbad - Nowa Wieś",
+    description: "Klub badmintona, Nowa Wieś, Włocławek",
     url: "https://relaxbad.pl",
     siteName: "relaxbad.pl",
   },
