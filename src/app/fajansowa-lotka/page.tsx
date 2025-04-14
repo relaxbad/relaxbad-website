@@ -4,6 +4,7 @@ import ARROW from "@/assets/icons/arrow-right.svg";
 import Link from "next/link";
 import { Url } from "@/globals/routes";
 import FajansDesc from "@/components/FajansDesc";
+import FAJANS_REWARD from "@/assets/images/fajans-nagrody.jpg";
 
 const FajansowaLotka = () => (
   <div className="relative pb-10 md:pb-20 pt-20 md:pt-30">
@@ -22,6 +23,11 @@ const FajansowaLotka = () => (
         Turniej o <span className="text-fajans">FAJANSOWĄ</span> lotkę
       </h2>
       <FajansDesc />
+      <Image
+        src={FAJANS_REWARD}
+        alt="nagrody"
+        className="w-full mt-10 rounded-2xl"
+      />
     </div>
   </div>
 );

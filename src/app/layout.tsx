@@ -6,7 +6,7 @@ import { Url } from "@/globals/routes";
 import Footer from "@/sections/Footer";
 
 export const metadata: Metadata = {
-  title: "Klub Sportowy Relaxbad - Nowa Wieś",
+  title: "Klub Sportowy Relaxbad",
   description:
     "Oficjalna strona klubu sportowego Relaxbad Nowa Wieś, Włocławek",
   robots: "index",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     ],
     type: "website",
     locale: "pl_PL",
-    title: "Klub Sportowy Relaxbad - Nowa Wieś",
+    title: "Klub Sportowy Relaxbad",
     description: "Klub badmintona, Nowa Wieś, Włocławek",
     url: "https://relaxbad.pl",
     siteName: "relaxbad.pl",

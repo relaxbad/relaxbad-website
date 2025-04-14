@@ -2,17 +2,16 @@ const FajansDesc = () => (
   <>
     <div className="md:w-1/2 flex flex-wrap">
       <p>
-        Turniej organizowany przy współpracy z Fajansem Włocławskim
-        popularyzujący ..... W zmaganiach biorą udział zawodnicy z różnych
-        poziomów umiejętności z podziałem na gry pojedyncze, gry podwójne,
-        mixty.{" "}
+        Ogólnopolski turniej badmintona organizowany przy współpracy z Fajansem
+        Włocławskim oraz Urzędem Miasta Włocławek. W zmaganiach biorą udział
+        zawodnicy z różnych poziomów umiejętności z podziałem na gry podwójne,
+        mixty.
       </p>
     </div>
     <div className="lg:w-1/2 grid grid-cols-1 sm:grid-cols-2  gap-4 gap-y-10 mt-20">
       <div>
         <h3 className="mb-2">Kategorie gier</h3>
         <ul className="list-disc list-inside">
-          <li>Gry pojedyncze</li>
           <li>Gry podwójne</li>
           <li>Mixty</li>
         </ul>
@@ -34,10 +33,10 @@ const FajansDesc = () => (
       <div className="sm:col-span-2">
         <h3 className="mb-2">Nagrody</h3>
         <p>
-          Nagroda, czyli Fajansowa Lotka symbolizuje nawiązanie do tradycji
-          regionu. <br />
-          Fundatorem finansowej lotki jest firma Fajans Włocławski z siedzibą
-          przy ulicy Falbanka 28.{" "}
+          Nagroda, czyli statuetka Fajansowa Lotka symbolizuje nawiązanie do
+          tradycji regionu. <br />
+          Fundatorem statuetki jest Fajans Włocławski z siedzibą przy ulicy
+          Falbanka 28.{" "}
         </p>
       </div>
     </div>
