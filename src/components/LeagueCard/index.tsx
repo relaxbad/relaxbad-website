@@ -1,12 +1,12 @@
 import { LEAGUE_LINK } from "@/globals/links";
 import LinkButton from "../LinkButton";
-import LEAGUE_BG from "@/assets/images/league-bg-el.webp";
+import LEAGUE_BG from "@/assets/images/lotka.webp";
 
-const xsClassName = "bg-[right_bottom] bg-[length:150px]";
-const mdClassName = "md:bg-[length:250px]";
-const lgClassName = "lg:bg-[length:270px]";
+const xsClassName = "bg-[right_20px_bottom] bg-[length:130px]";
+const mdClassName = "md:bg-[length:200px]";
+const lgClassName = "lg:bg-[length:250px]";
 
-const imageClassName = `bg-no-repeat ${xsClassName}  ${mdClassName} ${lgClassName}`;
+const imageClassName = `bg-no-repeat  ${xsClassName}  ${mdClassName} ${lgClassName}`;
 
 const LeagueCard = () => {
   return (

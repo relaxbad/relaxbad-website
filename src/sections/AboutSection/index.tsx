@@ -26,10 +26,10 @@ const AboutSection = () => (
       <div className="col-span-full lg:col-span-4 mb-10 lg:mb-0 lg:pt-20 lg:mx-10 flex flex-col items-center lg:items-start">
         <h3 className="">O klubie</h3>
         <p className="mt-5 mb-10 text-center lg:text-left">
-          Nasz klub prężnie rozwija się już od 2019 roku. Organizujemy regularne
-          treningi, wyjazdy na turnieje oraz Włocławską Amatorską Ligę
-          Badmintona. Wydarzenia oraz nasze aktualne osiągnięcia można śledzić
-          na facebooku.
+          Nasz klub prężnie rozwija się już od 2021 roku. Organizujemy regularne
+          treningi dla dzieci i dorosłych, wyjazdy na turnieje oraz Włocławską
+          Amatorską Ligę Badmintona. Wydarzenia oraz nasze aktualne osiągnięcia
+          można śledzić na facebooku.
         </p>
         <FacebookButton />
       </div>
