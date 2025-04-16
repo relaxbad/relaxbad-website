@@ -12,7 +12,7 @@ export const FAQ: FAQType[] = [
       <>
         <p>Treningi odbywają się w SP 19 we Włocławku na Michelinie</p>
         <ul className="list-disc list-inside ml-4 my-2">
-          <li>Poniedziałek 18.30 - 21.15</li>
+          <li>Wtorek 18.30 - 21.15</li>
           <li>Piątek 19.00 - 21.15</li>
         </ul>
       </>
@@ -23,8 +23,8 @@ export const FAQ: FAQType[] = [
     answer: (
       <>
         <p>
-          Tak, organizujemy zajęcia dla dzieci w wieku od 6 do 12 lat. Zajęcia
-          odbywają się w:
+          Tak, organizujemy zajęcia dla dzieci i młodzieży. Zajęcia odbywają się
+          w:
         </p>
         <ul className="list-disc list-inside ml-4 my-2">
           <li>Poniedziałek SP Kruszyn - 15.00 - 16.30</li>
