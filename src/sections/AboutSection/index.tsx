@@ -1,4 +1,4 @@
-import PLAYERS_BACK from "@/assets/images/about/players-back.jpg";
+import PLAYERS_BACK from "@/assets/images/about/kids.jpeg";
 import PLAYERS_SMILE from "@/assets/images/about/players-smile.jpg";
 import PLAYERS_FRONT from "@/assets/images/about/players-front.jpg";
 import Image from "next/image";
@@ -33,7 +33,7 @@ const AboutSection = () => (
         </p>
         <FacebookButton />
       </div>
-      <div className="hidden col-span-3 lg:flex items-end justify-end pl-10">
+      <div className="hidden col-span-4 lg:flex items-end justify-end pl-10">
         <Image
           src={PLAYERS_BACK}
           alt="players"
