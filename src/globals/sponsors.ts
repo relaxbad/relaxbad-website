@@ -14,14 +14,14 @@ export interface Sponsor {
 
 export const SPONSORS: Sponsor[] = [
   {
-    name: "Miasto Włocławek",
-    logo: MIASTO_WLOCLAWEK,
-    link: "https://www.wloclawek.eu/",
-  },
-  {
     name: "Gmina Włocławek",
     logo: GMINA_WLOCLAWEK,
     link: "https://gmina.wloclawek.pl/www/",
+  },
+  {
+    name: "Miasto Włocławek",
+    logo: MIASTO_WLOCLAWEK,
+    link: "https://www.wloclawek.eu/",
   },
   {
     name: "Starostwo Powiatowe we Włocławku",
