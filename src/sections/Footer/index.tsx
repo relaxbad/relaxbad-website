@@ -49,7 +49,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="border-gray-200 border-t text-gray-400 text-xs p-5 flex flex-col gap-3 md:gap-0 text-center md:text-start md:flex-row md:justify-between">
-        <p>Relaxbad 20204, Wszelkie prawa zastrzerzone</p>
+        <p>Relaxbad 2025, Wszelkie prawa zastrzerzone</p>
         <p>
           Strona zbudowana przez{" "}
           <a
