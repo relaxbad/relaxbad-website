@@ -13,7 +13,7 @@ export const FAQ: FAQType[] = [
         <p>Treningi odbywają się w SP 19 we Włocławku na Michelinie</p>
         <ul className="list-disc list-inside ml-4 my-2">
           <li>Wtorek 18.30 - 21.15</li>
-          <li>Piątek 19.00 - 21.15</li>
+          <li>Piątek 19.00 - 21.00</li>
         </ul>
       </>
     ),
