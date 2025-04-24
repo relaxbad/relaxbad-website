@@ -16,7 +16,7 @@ const LeagueCard = () => {
     >
       <div className="text-white my-10 md:my-20  md:w-[70%]">
         <p className="font-semibold text-sm md:text-base opacity-80 ">
-          SEZON 2024/2024
+          SEZON 2024/2025
         </p>
         <h2>Włocławska Liga Badmintona</h2>
         <p className="mt-5 text-sm md:text-base">
