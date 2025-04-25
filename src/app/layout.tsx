@@ -6,15 +6,8 @@ import { Url } from "@/globals/routes";
 import Footer from "@/sections/Footer";
 
 export const metadata: Metadata = {
-  title: "Klub Sportowy Relaxbad | Badminton Nowa Wieś, Włocławek",
-  keywords: [
-    "relaxbad",
-    "badminton",
-    "badminton nowa wieś",
-    "badminton włocławek",
-  ],
-  description:
-    "Oficjalna strona klubu sportowego Relaxbad Nowa Wieś, Włocławek",
+  title: "Badminton Włocławek, Nowa Wieś - Treningi, Liga | Klub Relaxbad",
+  description: `Klub RelaxBad Włocławek, Nowa Wieś – treningi badmintona dla dzieci, młodzieży i dorosłych. Amatorska liga, turnieje i sportowa atmosfera.`,
   robots: "index",
   icons: {
     icon: [
