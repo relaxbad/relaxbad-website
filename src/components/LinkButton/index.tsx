@@ -22,7 +22,7 @@ const LinkButton = (props: LinkProps) => (
     <div className="bg-white rounded-full flex justify-center items-center p-2">
       <Image
         src={ARROW_RIGHT}
-        alt="arrow-right"
+        alt="strzałka"
         width={20}
         height={20}
         className="size-3"

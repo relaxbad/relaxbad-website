@@ -11,7 +11,11 @@ export const Navbar = () => {
       <div className="hidden relative mt-3 lg:flex flex-row w-full z-100">
         <div className="absolute flex justify-self-start  bg-white rounded-full">
           <Link href={Url.HOME}>
-            <Image src={LOGO} alt="logo" className="h-7 w-40 my-3 mr-2" />
+            <Image
+              src={LOGO}
+              alt="Logo klubu Relaxbad"
+              className="h-7 w-40 my-3 mr-2"
+            />
           </Link>
         </div>
         <ul className="text-sm flex flex-row mx-auto justify-center items-center bg-primary w-fit px-8 py-4 rounded-full gap-6">

@@ -4,7 +4,7 @@ import Image from "next/image";
 const Stripes = () => (
   <Image
     src={STRIPES}
-    alt="stripes"
+    alt=""
     role="presentation"
     className=" absolute -top-55 w-200 -left-130 -z-10"
   />

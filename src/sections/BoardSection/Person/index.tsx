@@ -9,7 +9,11 @@ interface PersonProps {
 
 const Person = ({ name, image, description }: PersonProps) => (
   <div className="flex  flex-col items-center text-sm">
-    <Image src={image} alt={name} className="rounded-full size-36" />
+    <Image
+      src={image}
+      alt={`${name} ${description}`}
+      className="rounded-full size-36"
+    />
     <p className="font-semibold mt-3">{name}</p>
     <p className="text-[#808080]">{description}</p>
   </div>

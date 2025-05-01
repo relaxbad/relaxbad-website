@@ -13,7 +13,7 @@ const HamburgerNav = () => {
     <>
       <div className="bg-white py-2 px-1 lg:hidden shadow-xs">
         <div className="container flex justify-between items-center ">
-          <Image src={LOGO} alt="logo" className="h-6 w-fit" />
+          <Image src={LOGO} alt="Logo klubu Relaxbad" className="h-6 w-fit" />
           <Hamburger
             toggleMenu={() => setIsOpen((prev) => !prev)}
             isOpen={isOpen}

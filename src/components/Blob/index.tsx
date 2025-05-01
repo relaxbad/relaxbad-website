@@ -9,7 +9,8 @@ interface BlobProps extends React.HTMLProps<HTMLImageElement> {
 const Blob = (props: BlobProps) => (
   <Image
     src={(props.color ?? "green") === "green" ? BLOB_GREEN : BLOB_BLUE}
-    alt="blob"
+    alt=""
+    role="presentation"
     className={`absolute ${props.className} -z-20 w-100 hidden lg:block`}
   />
 );

@@ -14,12 +14,12 @@ const AboutSection = () => (
       <div className="hidden col-span-4 lg:flex flex-col pr-10">
         <Image
           src={PLAYERS_FRONT}
-          alt="players"
+          alt="zawodnik grający w badmintona"
           className="rounded-2xl w-3/5 -mb-10 self-end z-10"
         />
         <Image
           src={PLAYERS_SMILE}
-          alt="players"
+          alt="samorządowcy grający w badmintona"
           className="rounded-2xl w-3/5 "
         />
       </div>
@@ -36,24 +36,24 @@ const AboutSection = () => (
       <div className="hidden col-span-4 lg:flex items-end justify-end pl-10">
         <Image
           src={PLAYERS_BACK}
-          alt="players"
+          alt="dzieci i młodzież grająca w badmintona"
           className="rounded-2xl w-full "
         />
       </div>
       <Image
         src={PLAYERS_FRONT}
-        alt="players"
+        alt="zawodnik grający w badmintona"
         className=" lg:hidden col-span-6  rounded-2xl flex-wrap"
       />
       <Image
         src={PLAYERS_SMILE}
-        alt="players"
+        alt="samorządowcy grający w badmintona"
         className="lg:hidden col-span-6 rounded-2xl flex-wrap"
       />
       <div className="lg:hidden overflow-hidden col-span-full rounded-2xl h-3/5">
         <Image
           src={PLAYERS_BACK}
-          alt="players"
+          alt="dzieci i młodzież grająca w badmintona"
           className=" w-full -translate-y-[60px]"
         />
       </div>

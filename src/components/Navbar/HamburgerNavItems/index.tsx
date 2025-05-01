@@ -26,7 +26,7 @@ const HamburgerNavItems = ({ closeNav }: HamburgerNavItemsProps) => {
       </div>
       <Image
         src={STRIPES}
-        alt="stripes"
+        alt=""
         role="presentation"
         className="absolute -bottom-10 -right-40 sm:right-0 w-[200%] sm:w-[120%] md:w-full md:right-40 overflow-visible max-w-none"
       />
