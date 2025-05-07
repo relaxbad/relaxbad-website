@@ -5,6 +5,24 @@ import Link from "next/link";
 import { Url } from "@/globals/routes";
 import FajansDesc from "@/components/FajansDesc";
 import FAJANS_REWARD from "@/assets/images/fajans-nagrody.jpg";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Turniej o Fajansową Lotkę - Klub RelaxBad Włocławek",
+  description: `Ogólnopolski turniej badmintona organizowany przy współpracy z Fajansem
+        Włocławskim oraz Urzędem Miasta Włocławek. W zmaganiach biorą udział
+        zawodnicy z różnych poziomów umiejętności z podziałem na gry podwójne,
+        mixty.`,
+  robots: "index",
+  icons: {
+    icon: [
+      {
+        url: "/favicon.ico",
+        href: "/favicons.ico",
+      },
+    ],
+  },
+};
 
 const FajansowaLotka = () => (
   <div className="relative pb-10 md:pb-20 pt-20 md:pt-30">
