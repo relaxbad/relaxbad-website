@@ -5,7 +5,7 @@ interface DownloadFiles {
 
 export const DOWNLOAD_FILES: DownloadFiles[] = [
   {
-    name: "Deklaracja człokowska",
+    name: "Deklaracja członkowska",
     url: "/downloads/Deklaracja_Czlonkowska_Relaxbad.pdf",
   },
   {

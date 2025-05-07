@@ -10,7 +10,7 @@ export const CONTACTS: Contact[] = [
     label: "Prezes",
     name: "Grzegorz Jankowski",
     email: "relaxbad.nw@gmail.com",
-    phone: "661 191 848",
+    phone: "661 919 848",
   },
   {
     label: "Trener sekcji dziecięcej",
