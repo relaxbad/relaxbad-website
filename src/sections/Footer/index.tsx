@@ -9,13 +9,20 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <div className="bg-light-grey mt-10">
-      <div className="container grid md:grid-cols-4  gap-12 md:gap-4 py-15 text-center md:text-left ">
-        <div className="flex justify-center md:justify-start">
+      <div className="container grid md:grid-cols-4 lg:grid-cols-5  gap-12 md:gap-4 py-15 text-center md:text-left ">
+        <div className="flex justify-center md:justify-start flex-col">
           <Image
             src={LOGO}
             alt="Logo klubu Relaxbad"
-            className="h-6 w-30 my-2"
+            className="h-6 w-30 my-2 mx-auto"
           />
+          <div className="hidden md:flex justify-center  lg:hidden">
+            <Image
+              src={LOGO_LARGE}
+              alt="Logo klubu Relaxbad"
+              className="size-auto "
+            />
+          </div>
         </div>
         <div>
           <h3>Kontakt</h3>
@@ -46,7 +53,21 @@ const Footer = () => {
             ))}
           </div>
         </div>
-        <div className="flex justify-center md:justify-end">
+        <div>
+          <h3>Dane Klubu</h3>
+          <div className="footer-text flex flex-col gap-2 mt-4">
+            <p>NIP: 8883150155</p>
+            <p>
+              ul. Diamentowa 2, <br />
+              Nowa Wieś 87-853
+            </p>
+            <p>
+              Numer konta bankowego: <br />
+              84 1240 1981 1111 0011 0592 9308
+            </p>
+          </div>
+        </div>
+        <div className="flex justify-center md:hidden lg:flex lg:justify-end">
           <Image
             src={LOGO_LARGE}
             alt="Logo klubu Relaxbad"
