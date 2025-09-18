@@ -4,7 +4,7 @@ import MWM from "@/assets/sponsors/mwm-logo.png";
 import GMINA_WLOCLAWEK from "@/assets/sponsors/gmina-wloclawek.png";
 import STAROSTWO_WLOCLAWEK from "@/assets/sponsors/powiat-wloclawski.svg";
 import POWERBAD from "@/assets/sponsors/powerbad.png";
-import FAJANS_LOGO from "@/assets/sponsors/fajans_logo.png";
+import WABI_SABI from "@/assets/sponsors/wabi-sabi.svg";
 
 export interface Sponsor {
   name: string;
@@ -44,8 +44,8 @@ export const SPONSORS: Sponsor[] = [
     link: "https://powerbad.com/",
   },
   {
-    name: "Fajans Włocławski",
-    logo: FAJANS_LOGO,
-    link: "https://fajanswloclawek.pl/",
+    name: "WABI - SABI",
+    logo: WABI_SABI,
+    link: "https://www.facebook.com/profile.php?id=61566840188064#",
   },
 ];
