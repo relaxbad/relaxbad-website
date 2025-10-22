@@ -58,7 +58,7 @@ export const FAQ: FAQType[] = [
     title: "Jakie są koszty członkostwa?",
     answer: (
       <p>
-        Składka członkowska wynosi miesięcznie 60 zł i jest płatna do 10 dnia
+        Składka członkowska wynosi miesięcznie 70 zł i jest płatna do 10 dnia
         bieżącego miesiąca.
       </p>
     ),
