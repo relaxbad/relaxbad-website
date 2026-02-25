@@ -12,7 +12,7 @@ export const FAQ: FAQType[] = [
       <>
         <p>Treningi odbywają się w SP 19 we Włocławku na Michelinie</p>
         <ul className="list-disc list-inside ml-4 my-2">
-          <li>Wtorek 18.30 - 21.15</li>
+          <li>Wtorek 18.45 - 21.45</li>
           <li>Piątek 19.00 - 21.00</li>
         </ul>
       </>
@@ -24,12 +24,11 @@ export const FAQ: FAQType[] = [
       <>
         <p>
           Tak, organizujemy zajęcia dla dzieci i młodzieży. Zajęcia odbywają się
-          w:
+          w SP 19:
         </p>
         <ul className="list-disc list-inside ml-4 my-2">
-          <li>Poniedziałek SP Kruszyn - 15.00 - 16.30</li>
-          <li>Wtorek SP 19 - 17.00 - 18.30</li>
-          <li>Środa SP 19 - 19.00 - 20.30</li>
+          <li>Wtorek 18.45 - 21.45</li>
+          <li>Środa 19.00 - 20.30</li>
         </ul>
         <p>O przyporządkowaniu zawodników do grup decyduje trener</p>
       </>
