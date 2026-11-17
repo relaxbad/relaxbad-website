@@ -18,7 +18,7 @@ const FajansDesc = () => (
       </div>
       <div>
         <h3 className="mb-2">Kiedy?</h3>
-        <p>13.09.2025</p>
+        <p>19.09.2026</p>
         <p>Rozpoczęcie 8:30</p>
       </div>
       <div>
