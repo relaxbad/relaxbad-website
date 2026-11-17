@@ -17,7 +17,7 @@ const FajansCard = () => {
     >
       <div className="mt-20 mb-5  sm:w-[70%]">
         <p className="font-semibold text-sm lg:text-base opacity-80">
-          EDYCJA II - 2025
+          EDYCJA III - 2026
         </p>
         <h2>
           Turniej o <span className="text-fajans">fajansową</span> lotkę
